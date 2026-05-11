@@ -1,0 +1,12 @@
+{
+  "name": "landing-bancaria",
+  "version": "1.0.0",
+  "description": "Landing page para institucion financiera",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
