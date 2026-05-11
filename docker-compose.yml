@@ -6,7 +6,7 @@ services:
   # ==========================================
   banco-db:
     build: 
-      context: ./mi-banco-mysql  # <--- NOTA ESTE CAMBIO: Busca en la carpeta de al lado
+      context: ./mi-banco-mysql1  # <--- NOTA ESTE CAMBIO: Busca en la carpeta de al lado
       dockerfile: Dockerfile
     container_name: mysql-db-server
     restart: always
@@ -25,7 +25,7 @@ services:
   # ==========================================
   banco-app:
     build:
-      context: ./mi-banco-app # <--- NOTA ESTE CAMBIO: Busca en la carpeta de al lado
+      context: ./mi-banco-app1 # <--- NOTA ESTE CAMBIO: Busca en la carpeta de al lado
       dockerfile: Dockerfile
     container_name: node-app-server
     restart: always
